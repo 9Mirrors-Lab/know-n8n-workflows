@@ -1,0 +1,27 @@
+Title: n8n Workflow Automation Library for Multi-Domain Integration and Process Automation
+
+This repository provides a comprehensive collection of 2,053 n8n workflows serving as a reference library for automation patterns across multiple domains. It solves the challenge of building complex automation pipelines by providing pre-built, tested workflow templates with 365 unique integrations. Key value includes ready-to-deploy automation patterns, integration templates, and workflow architectures that can be adapted for various use cases. Ideal for agents needing to build automation systems, integrate multiple services, or understand n8n workflow patterns.
+
+Key Components:
+• workflows/ directory: 2,053 JSON workflow files - Pre-built automation templates - Integration patterns - Domain-specific solutions
+• 365 unique integrations: Service connectors - API patterns - Authentication methods - Data transformation logic
+• Integration categories: messaging (Telegram, Discord, Slack, WhatsApp, Teams) - ai_ml (OpenAI, Anthropic, Hugging Face) - database (PostgreSQL, MySQL, MongoDB, Redis, Airtable) - email (Gmail, Mailjet, Outlook, SMTP/IMAP) - cloud_storage (Google Drive, Dropbox, OneDrive) - project_management (Jira, GitHub, GitLab, Trello, Asana) - social_media (LinkedIn, Twitter/X, Facebook, Instagram) - ecommerce (Shopify, Stripe, PayPal) - analytics (Google Analytics, Mixpanel) - calendar_tasks (Google Calendar, Cal.com, Calendly) - forms (Typeform, Google Forms, Form Triggers) - development (Webhook, HTTP Request, GraphQL, SSE)
+• Trigger patterns: Webhook handlers - Scheduled triggers - Manual triggers - Complex multi-step triggers
+• Node configurations: Parameter templates - Credential setups - Error handling patterns - Data mapping examples - Conditional logic flows
+• CLAUDE.md: AI assistant guide - Workflow analysis patterns - Documentation generation - Troubleshooting guidance - Optimization strategies
+
+Tips or Insights:
+• Workflow Architecture: Each workflow demonstrates specific integration patterns - Reusable node configurations - Error handling strategies - Data flow optimization techniques - Modular design principles
+• Integration Patterns: 365 integrations cover major services - Authentication methods vary by service (OAuth, API keys, webhooks) - Rate limiting and retry logic included - Data transformation best practices - Error handling standardization
+• Modification Approach: Workflows are modular by design - Node configurations can be extracted and reused - Integration patterns transfer across domains - Error handling can be standardized - Credential management patterns are consistent
+• Domain Assumptions: Workflows assume n8n runtime environment - Credentials must be configured per deployment - Webhook URLs need environment-specific updates - Database schemas may require adaptation - API endpoints may have version differences
+• Search Patterns: Use "workflow json" to find specific automation templates - Search by service name (e.g., "telegram", "openai", "postgresql") - Look for trigger types ("webhook", "scheduled", "manual") - Find complexity levels ("simple", "complex", "high")
+• AI Assistant Guidance: CLAUDE.md provides specific instructions for workflow analysis, documentation generation, troubleshooting, and optimization - Focus on business purpose over individual nodes - Identify common patterns and error handling - Suggest modular improvements
+
+MCP-Specific Considerations:
+• Structured Knowledge: Workflows organized by integration type and complexity - JSON structure reveals node patterns and data flows - Metadata includes trigger types and node counts - CLAUDE.md provides AI-specific analysis patterns
+• Tool Integration: Workflows demonstrate n8n node usage patterns - Integration configurations show API connection methods - Error handling reveals robust automation practices - AI guidance enables intelligent workflow analysis
+• Context Preservation: Each workflow maintains domain context for accurate pattern selection - Integration requirements are clearly defined - Dependencies and prerequisites are documented - AI assistant context preserved in CLAUDE.md
+• Actionable Patterns: Workflows can be directly imported into n8n - Node configurations provide immediate implementation guidance - Integration patterns transfer to other automation platforms - AI assistant can generate documentation and optimization suggestions
+
+Best used by agents that need to build automation systems, integrate multiple services, or understand n8n workflow patterns. Particularly valuable for automation engineers, system integrators, and developers working with n8n or similar workflow automation platforms. Search for specific integration patterns, trigger types, or service combinations to find relevant workflow examples. Reference CLAUDE.md for AI assistant-specific guidance on analysis, documentation, and optimization tasks.
